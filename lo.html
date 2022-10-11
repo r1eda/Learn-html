@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #MMO{
+        height: 1000px;
+        margin: auto;
+        background: rgb(199, 224, 199);
+    }
+    header{
+        height: 90px;
+        width: 70%;
+        background: red;
+        float: left;
+    }
+    nav{
+        height: 90px;
+        width: 30%;
+        background: green;
+        float: right;
+    }
+    main{
+        background: yellow;
+        height: 55%;
+        width:85%;
+        float: right;
+    }
+    article{
+        background: rgb(49, 57, 130);
+        height: 225px;
+        width: 46.5%;
+        margin: 2.5px;
+        padding: 3px;
+        text-align: center;
+    }
+    aside{
+        background: rgb(140, 45, 234);
+        height: 550px;
+        width: 15%;
+        float: left;
+    }
+    footer{
+        background: goldenrod;
+        height: 90%;
+        width: 100%;
+        clear: both;
+    }
+</style>
+</head>
+<body>
+    <div id="MMO">
+        <header>
+            header
+        </header>
+        <nav>
+            nav
+        </nav>
+        <main><h3 style="background:rgb(15, 145, 6) ; text-align: center;">main</h3>
+            <article style="float: right;">
+                <h1 style="background: white; padding: 0px; margin: 0px;">article</h1>
+                <!--
+                    style="object-fit: ;cover
+                    يعالج الصورة يخليهة واضحة ويكصهة في حال ماكو تناسق بالصورة
+                -->
+                <img src="R2.png" height="83%" width="98%" style="padding:0px; object-fit:cover;">
+            </article>
+            <article style="float: left;">
+                <!--
+                    style="margin: 0px;
+                    ميرجن لازاله الهامش 
+                -->
+            <h1 style="margin: 0px; background:white; padding:0px;">article2</h1>
+            <video src="R4.mp4" controls muted loop autoplay height="88%" width="100% "></video>
+            </article>
+            <article style="float: right;">
+                <h1 style="margin: 0px; background:white; padding:0px;">3</h1>
+            </article>
+            <article style="float:left;">
+            <h3 style="background:rgb(255, 255, 255); margin: 0px; padding: 3px;">4</h3>
+            </article>
+        </main>
+        <aside>aside</aside>
+        <footer>footer</footer>
+    </div>
+</body>
+</html>
+<!--
+    margin
+    هاي بلستايل تفيد تخلي بيهة عازل 
+-->
+<!--
+    text-align: center;
+    تنظاف للاستايل وتخلي العناصر بالمنتصف
+-->
+<!--
+    "margin: 0px; background:white; padding:0px;
+    الباندج تتحكم بمسافة الشريط مثلا او بالفراغات تحدد شكد تريدهة 
+-->
